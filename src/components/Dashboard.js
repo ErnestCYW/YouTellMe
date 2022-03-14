@@ -1,14 +1,14 @@
 import React, { useState , useEffect } from "react";
 import { Button, Card, Container } from "react-bootstrap";
 import Modal from 'react-bootstrap/Modal'
-import { useAuth } from "../contexts/AuthContext";
-import { useHistory } from "react-router-dom";
+//import { useAuth } from "../contexts/AuthContext";
+//import { useHistory } from "react-router-dom";
 import Sidebar from "./Sidebar";
 
 import { db } from "../firebase";
 
 export default function Dashboard() {
-  const { currentUser } = useAuth();
+  //const { currentUser } = useAuth();
 
   const [show, setShow] = useState(false);
   const [confirmation, setConfirmation] = useState(false)

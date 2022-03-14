@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from "react";
-import { Button, Container, ListGroup } from "react-bootstrap";
+import { Button, ListGroup } from "react-bootstrap";
 import { useAuth } from "../contexts/AuthContext";
-import { useHistory, Switch, Route } from "react-router-dom";
+//import { useHistory} from "react-router-dom";
 import { db } from "../firebase";
 
 export default function Sidebar() {
-  const [error, setError] = useState("");
-  const { currentUser, logout } = useAuth();
-  const history = useHistory();
+  //const [error, setError] = useState("");
+  const { currentUser} = useAuth();
+  //const history = useHistory();
   const [user, setUser] = useState({})
 
 
