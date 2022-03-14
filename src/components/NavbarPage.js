@@ -32,7 +32,7 @@ export default function NavbarPage() {
         <div className="w-100">
           <Navbar>
             <Navbar.Brand>
-              <a href="/"><Image href="/" src={logo} width={300} fluid/></a>
+              <a href="/"><Image href="/" src={logo} width={125} fluid/></a>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse className="justify-content-end">
