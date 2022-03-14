@@ -36,7 +36,7 @@
 
 ## Demo
 
-Check out our product demo here: ```you-tell-me-2i2vjyhwm-ernestcyw.vercel.app```
+Check out our product demo here: ```https://you-tell-me.vercel.app/```
 
 
 ## Tech Stack
